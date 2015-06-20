@@ -54,27 +54,10 @@ body {
 }
 
 #container {
-    width: 450px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-}
-
-#skills, #in_progress {
-    width: 50%;
-    margin-top: 15px;
-}
-
-#skills {
-    float: left;
-}
-
-#in_progress {
-    float: right;
-}
-
-ul {
-    list-style-type: none;
-    text-align: left;
+	width: 96%;
 }
 
 li {
