@@ -99,9 +99,9 @@ span {
 }
 
 p {
-    margin-top: 25px;
+    margin-top: 23px;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.75;
     font-size: 16px;
 	color: #5a5a5a;
 }
@@ -124,7 +124,7 @@ h2 {
 }
 
 li {
-	margin-top: 20px;
+	margin-top: 18px;
 	float: left;
 	margin-right: 13px;
 }
