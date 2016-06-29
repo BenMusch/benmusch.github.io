@@ -54,10 +54,10 @@ body {
 }
 
 #container {
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-	width: 96%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
 }
 
 li {
@@ -119,4 +119,71 @@ li a {
 li a:hover {
 	color: #00a767;
 	text-decoration: none;
+}
+
+#projects-container {
+  max-width: 800px;
+}
+
+.thumbnail {
+  
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #444;
+  display: block;
+  float: left;
+}
+
+.view-source {
+  font-size: 14px !important;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+#projects-container h1 {
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  overflow: hidden;
+  height: 200px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 4px rgba(0,0,0, 0.2);
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+}
+
+.thumbnail img {
+  width: 700px;
+  margin-left: -15px;
+}
+
+#debatemate {
+  width: 400px;
+  margin-left: -37px;
+}
+
+#shub {
+  width: 350px;
+  margin-left: -80px;
+}
+
+#mittab {
+  width: 400px;
+  margin-left: -27px
+}
+
+#casebook {
+  width: 450px;
+  margin-left: -25px;
 }
