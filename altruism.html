@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Donations | Ben Muschol</title>
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" sizes="16x16">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/fa.css" type="text/css">
+        <script type="text/javascript" src="donations.js"></script>
+        <script type="text/javascript" src="altruism.js"></script>
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="donations-container">
+            <h1>Donations Log</h1>
+            <p>Millions of people suffer from diseases that are easily and
+            cheaply prevented. I think donating money to the most effective
+            charities is an important and effective solution. I have
+            <a href="https://www.givingwhatwecan.org/" target="_blank">pledged</a> to
+            give 10% of my income over my lifetime to the most effective
+            charities, though I hope to give more once I work full-time.
+            <a href="https://www.youtube.com/watch?v=Diuv3XZQXyc" target="_blank">This TED talk</a>
+            serves as a good introduction to why I pledged.
+            </p>
+            <p>
+            Looking at evidence of impact, I currently believe
+            <a
+              href="http://www.givewell.org/international/technical/programs/insecticide-treated-nets"
+              target="_blank">
+              bed net distribution
+            </a> and <a href="http://www.givewell.org/international/technical/programs/deworming"
+              target="_blank">
+              mass deworming
+            </a> are the most effective places to donate to improve the world,
+            though other organizations within the category of
+            <a href="http://givewell.com" target="_blank">global health</a> and
+            <a href="http://animalcharityevaluators.org" target="_blank">animal advocacy</a> may
+            be equally effective.
+            </p>
+            <p>I keep a log of my donations below so that others can see what
+            causes I find important.</p>
+            <br>
+            <table id="donations-log">
+              <tr>
+                <th>Year</th>
+                <th>Date</th>
+                <th>Organization</th>
+                <th>Amount</th>
+                <th>Notes</th>
+              </tr>
+            </table>
+            <script type="text/javascript">
+              donations.forEach(function(year) {
+                makeYear(year);
+              });
+            </script>
+        </div>
+    </body>
+</html>
+

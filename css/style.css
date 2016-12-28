@@ -53,6 +53,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* MAIN STYLES */
+
 #container {
   max-width: 450px;
   margin-left: auto;
@@ -81,13 +83,14 @@ span {
 	font-weight: 200;
 }
 
-p {
+p, td, th {
     margin-top: 23px;
     font-size: 16px;
     line-height: 1.75;
     font-size: 16px;
 	color: #5a5a5a;
 }
+
 
 a {
     color: #00a767;
@@ -120,6 +123,8 @@ li a:hover {
 	color: #00a767;
 	text-decoration: none;
 }
+
+/* PROJECTS */
 
 #projects-container {
   max-width: 800px;
@@ -191,4 +196,35 @@ h3 {
 #scotus-laughter {
   width: 350px;
   margin-left: -30px;
+}
+
+/* DONATIONS */
+
+#donations-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+td, th, table p {
+  padding: 2px 4px 2px 4px;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+th {
+  font-weight: 600;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+table p {
+  line-height: 14px;
+}
+
+table small {
+  margin-top: 0px;
+  font-size: 12px;
+  line-height: 0px;
 }
