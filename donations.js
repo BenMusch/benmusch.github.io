@@ -7,6 +7,12 @@ var sci = {
   "evidence": "http://www.givewell.org/international/technical/programs/deworming",
 }
 
+var thl = {
+  "name": "The Humane League",
+  "desc": "Farmed animal advocacy",
+  "link": "http://www.thehumaneleague.com/"
+}
+
 var amf = {
   "name": "Against Malaria Foundation",
   "desc": "Distributes insecticide-treated bed nets with assistance from local distributors",
@@ -40,6 +46,18 @@ var dwb = {
 }
 
 var donations = [
+{
+  "year": 2017,
+  "income": 0,
+  "donations": [
+    {
+      "date": new Date(2017, 0, 6),
+      "amount": 10.73,
+      "organization": thl,
+      "notes": "Offsetting animal products in a free lunch"
+    }
+  ]
+},
 {
   "year": 2016,
   "income": 20863.64,
