@@ -1,5 +1,11 @@
 /// RAW DATA
 
+var ciwf = {
+  "name": "Compassion In World Farming USA",
+  "desc": "Corporate animal welfare advocacy",
+  "link": "https://www.ciwf.com/"
+}
+
 var sci = {
   "name": "Schistosomiasis Control Initiative",
   "desc": "Funds mass deworming programs in countries with high infection rates",
@@ -55,6 +61,11 @@ var donations = [
       "amount": 10.73,
       "organization": thl,
       "notes": "Offsetting animal products in a free lunch"
+    },
+    {
+      "date": new Date(2017, 0, 16),
+      "amount": 100.0,
+      "organization": ciwf
     }
   ]
 },
