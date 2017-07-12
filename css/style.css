@@ -198,6 +198,16 @@ h3 {
   margin-left: -30px;
 }
 
+#deploy {
+  width: 450px;
+  margin-left: -80px;
+}
+
+#nutab {
+  width: 350px;
+  margin-left: -15px;
+}
+
 /* DONATIONS */
 
 #donations-container {
