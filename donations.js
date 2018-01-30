@@ -1,5 +1,17 @@
 /// RAW DATA
 
+var ace = {
+  "name": "Animal Charity Evaluators",
+  "desc": "Evaluator & fund for animal-focused charities",
+  "link": "https://animalcharityevaluators.org/"
+}
+
+var eaAnimalFund = {
+  "name": "Effective Altruism Animal Welfare Fund",
+  "desc": "Fund for animal-focused charities",
+  "link": "https://app.effectivealtruism.org/funds"
+}
+
 var ciwf = {
   "name": "Compassion In World Farming USA",
   "desc": "Corporate animal welfare advocacy",
@@ -54,7 +66,7 @@ var dwb = {
 var donations = [
 {
   "year": 2017,
-  "income": 0,
+  "income": 48410,
   "donations": [
     {
       "date": new Date(2017, 0, 6),
@@ -66,7 +78,27 @@ var donations = [
       "date": new Date(2017, 0, 16),
       "amount": 100.0,
       "organization": ciwf
-    }
+    },
+    {
+      "date": new Date(2017, 10, 28),
+      "amount": 1000.0,
+      "organization": thl
+    },
+    {
+      "date": new Date(2017, 10, 28),
+      "amount": 1000.0,
+      "organization": ciwf
+    },
+    {
+      "date": new Date(2017, 11, 23),
+      "amount": 7500.0,
+      "organization": eaAnimalFund
+    }, 
+    {
+      "date": new Date(2017, 11, 23),
+      "amount": 2500.0,
+      "organization": ace
+    },
   ]
 },
 {
